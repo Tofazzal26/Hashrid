@@ -627,8 +627,120 @@ body {
 /* our partner style end */
 /* our faq style start */
 .ourFaq {
+  margin: 350px 0px;
+}
+.ourFaqArrow {
   position: absolute;
-  top: 4100px;
+  top: 120px;
+  left: 0px;
+  z-index: 0;
+}
+.faqPara {
+  width: 1272.28px;
+  height: 66.69px;
+  color: rgb(222, 222, 222);
+  font-family: DM Sans;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0%;
+  margin: 0 auto;
+}
+.faqInfo {
+  text-align: center;
+}
+.collapse {
+  width: 755px;
+  border: 1px solid rgb(64, 64, 64);
+  border-radius: 10px;
+  box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(15px);
+  background: rgba(18, 18, 19, 0.45);
+  margin-top: 32px;
+  z-index: 1;
+  position: relative;
+}
+.collapseInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+}
+.collapse h2 {
+  color: rgb(222, 222, 222);
+  font-family: DM Sans;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+}
+.collapseParent {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 65px;
+  position: relative;
+  z-index: 1;
+}
+.toggleImg {
+  cursor: pointer;
+}
+.dynamicPara {
+  width: 619.6px;
+  color: rgb(153, 153, 153);
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0%;
+  padding: 0px 0px 30px 30px;
+  transition: max-height 0.4s ease, opacity 0.4s ease;
+  overflow: hidden;
+  display: none;
+}
+.showPara {
+  max-height: 300px;
+  display: block;
+}
+.headColor {
+  color: #40dde3 !important;
+}
+.meme {
+  margin-top: 95px;
+}
+.meme h2 {
+  background: linear-gradient(
+    133.06deg,
+    rgb(41, 41, 41),
+    rgb(255, 255, 255),
+    rgb(103, 103, 103),
+    rgb(255, 255, 255)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-family: Orbitron;
+  font-size: 65px;
+  font-weight: 600;
+  line-height: 82px;
+  letter-spacing: 0%;
+}
+.memeParent {
+  margin-left: 260px;
+}
+.notified {
+  position: absolute;
+  right: 400px;
+  top: 90px;
+}
+.mainMeme {
+  position: relative;
+}
+.memeArrow {
+  position: absolute;
+  right: 0px;
+  top: -60px;
 }
 /* our faq style end */
 
@@ -685,6 +797,8 @@ body {
   .computerArrow,
   .partnerArrow2,
   .partnerArrow,
+  .ourFaqArrow,
+  .memeArrow,
   .hash {
     display: none;
   }
@@ -763,6 +877,7 @@ body {
     font-size: 18px;
   }
   /* hash style end  */
+
   /* our partner style start */
   .ourParent {
     position: absolute;
@@ -791,4 +906,46 @@ body {
     width: 100%;
   }
   /* our partner style end */
+
+  /* our faq style start */
+  .ourFaq {
+    margin-top: 1200px;
+  }
+  .faqPara {
+    width: 100%;
+    font-size: 18px;
+  }
+  .collapseParent {
+    gap: 10px;
+    margin-top: 60px;
+    flex-direction: column;
+  }
+  .collapse {
+    width: 100%;
+    margin-top: 15px;
+  }
+  .dynamicPara {
+    width: 100%;
+    font-size: 16px;
+    padding: 0px 0px 20px 20px;
+  }
+  .collapseInfo {
+    padding: 10px 20px;
+  }
+  .meme {
+    margin-top: 40px;
+  }
+  .memeParent {
+    margin-left: 0px;
+  }
+  .meme h2 {
+    font-size: 40px;
+    line-height: 45px;
+  }
+  .notified {
+    position: static;
+    right: 0px;
+    top: 90px;
+  }
+  /* our faq style end */
 }
