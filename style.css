@@ -1002,10 +1002,6 @@ body {
     flex-direction: column;
     gap: 0px;
   }
-  /* .socialParent {
-    flex-direction: column;
-    gap: 0px;
-  } */
   .footer {
     flex-direction: column;
     margin-top: 50px;
@@ -1014,6 +1010,9 @@ body {
   .condition {
     margin: 20px 0px;
     gap: 20px;
+  }
+  .container {
+    width: 98%;
   }
   /* footer style end */
 }
