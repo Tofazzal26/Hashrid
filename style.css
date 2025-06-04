@@ -1099,4 +1099,7 @@ body {
     right: 290px;
     z-index: 1;
   }
+  .featureXp {
+    right: 25px;
+  }
 }
