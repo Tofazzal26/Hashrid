@@ -297,6 +297,197 @@ body {
   align-items: center;
 }
 /* header style end */
+
+/* meet hashrid style start */
+.commonBtn {
+  color: rgb(64, 221, 227);
+  font-family: Orbitron;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: center;
+  border: 1px solid rgb(64, 221, 227);
+  border-radius: 25.8px;
+  background: rgb(18, 18, 19);
+  height: 51.6px;
+  padding: 0px 40px;
+  margin: 30px 0px;
+}
+
+.hashridParent {
+  border: 1px solid rgb(64, 64, 64);
+  border-radius: 10px;
+  box-shadow: 1px 20px 50px 0px rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(15px);
+  background: rgba(18, 18, 19, 0.45);
+  position: absolute;
+  width: 1532px;
+  height: 390.21px;
+  left: 194.45px;
+  top: 1000px;
+}
+.hashArrow {
+  margin-top: 350px;
+}
+.featureArrow {
+  position: absolute;
+  margin-top: 290px;
+  right: 0px;
+}
+.hashChild {
+  text-align: center;
+}
+.hashChild p {
+  color: rgb(222, 222, 222);
+  font-family: DM Sans;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 1144px;
+  margin: 0 auto;
+}
+.web3 {
+  padding-top: 30px;
+}
+.hashParagraph {
+  margin-top: 92px;
+}
+
+/* meet hashrid style end */
+
+/* Features stye start  */
+.featureParent {
+  border: 1px solid rgb(64, 64, 64);
+  border-radius: 10px;
+  box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(15px);
+  background: rgba(18, 18, 19, 0.45);
+  position: absolute;
+  width: 1532px;
+  height: 1051.71px;
+  left: 194.45px;
+  top: 1500px;
+}
+.featureParagraph {
+  text-align: center;
+}
+.featureParagraph p {
+  color: rgb(222, 222, 222);
+  font-family: DM Sans;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 1167.57px;
+  margin: 10px auto;
+}
+.featureCardParent {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-top: 70px;
+}
+.featureCard {
+  border: 1px solid rgb(64, 64, 64);
+  border-radius: 10px;
+  backdrop-filter: blur(15px);
+  background: rgba(18, 18, 19, 0.45);
+  width: 398.16px;
+  height: 362.3px;
+}
+.featureImg {
+  text-align: center;
+  position: relative;
+}
+.featureXp {
+  position: absolute;
+  top: -70px;
+  right: 55px;
+}
+.featureInfoXP {
+  margin-top: 156px;
+}
+.featureInfoXP h2 {
+  color: rgb(255, 255, 255);
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+}
+.featureInfoXP h3 {
+  font-weight: 700;
+  font-size: 14px;
+  color: #999999;
+  font-family: DM Sans;
+  margin-top: 15px;
+}
+.featureInfoXP p {
+  width: 303px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #999999;
+  font-family: DM Sans;
+}
+
+.feature {
+  padding: 20px;
+}
+.featureInfo h2 {
+  color: rgb(255, 255, 255);
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+}
+.featureInfo h3 {
+  font-weight: 700;
+  font-size: 14px;
+  color: #999999;
+  font-family: DM Sans;
+  margin-top: 15px;
+}
+.featureInfo p {
+  width: 303px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #999999;
+  font-family: DM Sans;
+}
+
+.badgeCard {
+  width: 623.6px;
+  height: 279.75px;
+  border: 1px solid rgb(64, 64, 64);
+  border-radius: 10px;
+  backdrop-filter: blur(15px);
+  background: rgba(18, 18, 19, 0.45);
+}
+.badgeBody {
+  padding: 20px 30px;
+}
+.badgeContent {
+  margin-top: 70px;
+}
+.handFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.badgeCardParent {
+  display: flex;
+  gap: 65px;
+  margin-top: 52px;
+  justify-content: center;
+  align-items: center;
+}
+/* Features stye end  */
+
 @media only screen and (max-width: 640px) {
   /* header style start */
   .firstShape {
@@ -345,6 +536,8 @@ body {
   .ZArrow2,
   .xp1,
   .xp2,
+  .featureArrow,
+  .hashArrow,
   .hash {
     display: none;
   }
@@ -352,4 +545,60 @@ body {
     margin-top: 30px;
   }
   /* header style end */
+
+  /* hash style start  */
+  .hashridParent {
+    width: 100%;
+    height: 400px;
+    left: 0px;
+    top: 750px;
+  }
+  .hashChild p {
+    width: 100%;
+    font-size: 18px;
+  }
+  .hashParagraph {
+    margin-top: 0px;
+  }
+  .web3 {
+    padding-top: 10px;
+  }
+  .featureParent {
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 1200px;
+  }
+  .featureParagraph p {
+    font-size: 18px;
+    width: 100%;
+  }
+  .featureCardParent {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 40px;
+  }
+  .featureCard {
+    width: 100%;
+  }
+  .featureXp {
+    right: 90px;
+  }
+  .badgeCardParent {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    flex-direction: column;
+  }
+  .badgeCard {
+    width: 100%;
+  }
+  .size {
+    width: 150px;
+  }
+  .badgeBody {
+    padding: 10px 15px;
+  }
+  /* hash style end  */
 }
