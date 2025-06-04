@@ -1023,6 +1023,11 @@ body {
     right: 20px;
     z-index: 20;
   }
+  .xp2 {
+    position: absolute;
+    top: 340px;
+    left: -50px;
+  }
   .blue1 {
     position: absolute;
     top: 110px;
@@ -1049,5 +1054,21 @@ body {
   }
   .TopShadow {
     left: 80px;
+  }
+  .hashridParent {
+    width: 1200px;
+    left: 85px;
+  }
+  .featureParent {
+    width: 1200px;
+    left: 85px;
+    padding: 40px;
+  }
+  .badgeCardParent {
+    padding: 0px 40px;
+    gap: 20px;
+  }
+  .featureCardParent {
+    margin-top: 50px;
   }
 }
