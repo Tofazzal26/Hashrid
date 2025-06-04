@@ -488,6 +488,79 @@ body {
 }
 /* Features stye end  */
 
+/* how to use style start */
+.computerMain {
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+  margin-top: 40px;
+}
+.hoToUse {
+  margin-top: 960px;
+  position: relative;
+}
+.computerArrow {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: 0;
+}
+.howPara {
+  color: rgb(222, 222, 222);
+  font-family: DM Sans;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.howToInfo {
+  text-align: center;
+}
+.computerCard {
+  width: 398.16px;
+  height: 505.01px;
+  border: 1px solid rgb(64, 64, 64);
+  border-radius: 10px;
+  backdrop-filter: blur(15px);
+  background: rgba(18, 18, 19, 0.45);
+  z-index: 1;
+}
+.computerInfo span {
+  color: rgb(153, 153, 153);
+  font-family: DM Sans;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0%;
+}
+
+.computerInfo h2 {
+  color: rgb(255, 255, 255);
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+}
+.computerInfo p {
+  width: 253px;
+  color: rgb(153, 153, 153);
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0%;
+  margin-top: 20px;
+}
+.cardBody {
+  padding: 20px;
+}
+.computerImg {
+  text-align: center;
+}
+/* how to use style end */
+
 @media only screen and (max-width: 640px) {
   /* header style start */
   .firstShape {
@@ -538,6 +611,7 @@ body {
   .xp2,
   .featureArrow,
   .hashArrow,
+  .computerArrow,
   .hash {
     display: none;
   }
@@ -599,6 +673,21 @@ body {
   }
   .badgeBody {
     padding: 10px 15px;
+  }
+  .computerMain {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 20px;
+  }
+  .hoToUse {
+    margin-top: 2520px;
+  }
+  .computerCard {
+    width: 100%;
+  }
+  .howPara {
+    font-size: 18px;
   }
   /* hash style end  */
 }
