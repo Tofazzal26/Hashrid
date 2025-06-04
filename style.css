@@ -1074,4 +1074,16 @@ body {
   .computerMain {
     gap: 40px;
   }
+  .ourParent {
+    width: 1200px;
+    left: 75px;
+  }
+  .firstCard {
+    gap: 20px;
+    margin-top: 45px;
+  }
+  .secondCard {
+    gap: 20px;
+    margin-top: 45px;
+  }
 }
