@@ -1016,3 +1016,38 @@ body {
   }
   /* footer style end */
 }
+@media only screen and (min-width: 641px) and (max-width: 1366px) {
+  .xp1 {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    z-index: 20;
+  }
+  .blue1 {
+    position: absolute;
+    top: 110px;
+    right: 160px;
+    z-index: 2;
+  }
+
+  .blue2 {
+    position: absolute;
+    top: 60px;
+    left: 160px;
+    z-index: 2;
+  }
+  .ZArrow1 {
+    left: -230px;
+  }
+  .ZArrow2 {
+    top: 380px;
+    right: 0px;
+  }
+  .grayShapeParent {
+    bottom: 0px;
+    left: 85px;
+  }
+  .TopShadow {
+    left: 80px;
+  }
+}
