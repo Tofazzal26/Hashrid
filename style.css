@@ -1071,4 +1071,7 @@ body {
   .featureCardParent {
     margin-top: 50px;
   }
+  .computerMain {
+    gap: 40px;
+  }
 }
